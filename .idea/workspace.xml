@@ -92,7 +92,7 @@
       <file leaf-file-name="testLogin.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testCase/user/testLogin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="43" selection-start="2672" selection-end="2672" vertical-scroll-proportion="0.3439575" vertical-offset="1622" max-vertical-offset="2489">
+            <state line="120" column="24" selection-start="3395" selection-end="3395" vertical-scroll-proportion="0.873838" vertical-offset="1622" max-vertical-offset="2489">
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -827,7 +827,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testCase/user/testLogin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="43" selection-start="2672" selection-end="2672" vertical-scroll-proportion="0.3439575" vertical-offset="1622" max-vertical-offset="2489">
+        <state line="120" column="24" selection-start="3395" selection-end="3395" vertical-scroll-proportion="0.873838" vertical-offset="1622" max-vertical-offset="2489">
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

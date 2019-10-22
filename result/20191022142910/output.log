@@ -1,0 +1,9 @@
+2019-10-22 14:29:10,925 - root - INFO - ********TEST START********
+2019-10-22 14:29:11,362 - root - INFO - login - Code:200 - msg:登录成功
+2019-10-22 14:29:11,667 - root - INFO - login_PasswordError - Code:-1 - msg:用户名或密码错误
+2019-10-22 14:29:11,979 - root - INFO - login_EmailError - Code:-1 - msg:用户名或密码错误
+2019-10-22 14:29:12,299 - root - INFO - login_EmailNull - Code:-1 - msg:用户名或密码错误
+2019-10-22 14:29:12,596 - root - INFO - login_PasswordNull - Code:-1 - msg:用户名或密码错误
+2019-10-22 14:29:12,911 - root - INFO - login_TokenNull - Code:-1 - msg:用户名或密码错误
+2019-10-22 14:29:12,912 - root - INFO - *********TEST END*********
+2019-10-22 14:29:24,487 - root - INFO - The test report has send to developer by email.

@@ -8,61 +8,61 @@
 
 
 
-![1571281793772](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571281793772.png)
+![1](/demoPic/1.png)
 
 1. **common文件夹存放公用的Python文件**
 
-   ![1571282755583](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571282755583.png)
+   ![2](demoPic/2.png)
 
 2. **result文件夹存放执行的结果文件**
 
-   ![1571282786080](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571282786080.png)
+   ![3](demoPic/3.png)
 
 3. **testCase文件夹存放用于执行测试用例的python文件**
 
-   ![1571282813984](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571282813984.png)
+   ![4](/demoPic/4.png)
 
-   ![1571282836105](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571282836105.png)
+   ![5](/demoPic/5.png)
 
    > *这里放的是用于执行测试用例的python文件*
 
 4. **testFile文件夹存放用于测试的用例，相关的接口配置、数据库配置、邮件模板等**
 
-   ![1571282924183](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571282924183.png)
+   ![6](\demoPic\6.png)
 
-   ![1571282941474](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571282941474.png)
+   ![7](\demoPic\7.png)
 
-   ![1571283009051](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571283009051.png)
+   ![8](\demoPic\8.png)
    
    *case文件夹中放的是以excel存放的测试用例*
    
-   ![1571283147866](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571283147866.png)
+   ![9](\demoPic\9.png)
    
    *emailStyle.txt中是设置测试执行完成后通知邮件的格式*
    
-   ![1571283217623](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571283217623.png)
+   ![10](\demoPic\10.png)
    
    *interfaceURL.xml设置要测试接口的路径*
    
-   ![1571283310097](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571283310097.png)
+   ![11](\demoPic\11.png)
    
    *SQL.xml设置数据库相关操作*
 
 5. **caselist.txt里面设置要执行的用例，签名不带#的执行，带#的不执行**
 
-   ![1571283368963](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571283368963.png)
+   ![12](demoPic/12.png)
 
 6. **config.ini是接口测试框架的配置文件**
 
-   ![](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571724895563.png)
+   ![13](\demoPic\13.png)
 
 7. **readConfig.py文件用于读取config.ini配置**
 
-   ![1571283510160](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571283510160.png)
+   ![14](\demoPic\14.png)
 
 8. **runAll.py是接口的入口文件**
 
-   ![1571283618974](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571283618974.png)
+   ![15](\demoPic\15.png)
 
    ---
 
@@ -202,13 +202,13 @@ class ReadConfig:
 
 HTMLTestRunner是一个类似于TextTestRunner的python unittest模块的扩展。第一个参数fp是报告文件report.html，第二个参数是标题，第三个参数是描述
 
-![1571729857552](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571729857552.png)
+![16](\demoPic\16.png)
 
 ###### 发送邮件模块--configEmail.py
 
 利用Python的smtplib、email等模块实现邮件发送
 
-![1571730194644](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1571730194644.png)
+![17](\demoPic\17.png)
 
 ###### 测试用例--testLogin.py（示例说明）
 
